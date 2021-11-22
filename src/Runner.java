@@ -9,11 +9,7 @@ public class Runner {
         materials[0]=new Material("wire",7850);
         materials[1]=new Material("copper",8500);
 
-      //  for(Subject subject : subjects ){
-        //        System.out.println(subject.toString());
                 mass = (materials[1].getDensity() * subjects[0].getVolume());
-
-        //}
         System.out.println("The wire mass is "+mass);
     }
 }
