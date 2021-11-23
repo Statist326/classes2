@@ -15,9 +15,6 @@ public class Material {
     public String getName() {
         return name;
     }
-    public void setName(String name){
-        this.name=name;
-    }
     public void setDensity(double density){
         this.density=density;
     }
@@ -25,7 +22,7 @@ public class Material {
         return density;
     }
 
-    @Override
+   @Override
     public String toString() {
         return (name+";"+density);
     }
