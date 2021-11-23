@@ -1,5 +1,4 @@
 package by.epam.lab;
-
 public class Subject {
     private String name;
     private double volume;
@@ -32,6 +31,6 @@ public class Subject {
 
     @Override
     public String toString() {
-        return name+";"+material.getName()+";"+material.getDensity()+";"+volume+";"+getMass();
+        return this.name+";"+material.toString()+";"+this.volume+";"+getMass();
     }
 }
